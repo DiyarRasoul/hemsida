@@ -1,0 +1,197 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #f7ecd9;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #30e3f0, #E57373);
+    color: #ff6262;
+    padding: 20px;
+    top: 0;
+    z-index: 10;
+}
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #ff6262;
+    font-size: 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover {
+    transform: scale(1.2);
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #ff6262;
+    font-size: 48px;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+}
+p {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: justify;
+}
+a {
+    color: #000;
+}
+li {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.container {
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px #000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #E57373, #30e3f0);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+.df-button {
+        background-color: #E57373; 
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        border-radius: 5px; 
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+        transition: all 0.3s ease 0s; 
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      
+     
+       
+      
+.df-button:hover {
+    background-color: #de5757; 
+    color: white; 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-7px); 
+}
+.df-button:active {
+    opacity: 0.5;
+}
+
+.mm-button {
+    background-color: #E57373; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease 0s; 
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.mm-button:hover {
+    background-color: #de5757; 
+    color: white; 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-7px); 
+}
+.mm-button:active {
+    opacity: 0.5;
+}
+
+.hem-button {
+    background-color: #E57373; 
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        border-radius: 5px; 
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+        transition: all 0.3s ease 0s; 
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        
+}
+.hem-button:hover {
+    background-color: #de5757; 
+    color: white; 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-7px); 
+}
+.hem-button:active {
+    opacity: 0.5;
+}
+.omoss-button {
+    background-color: #E57373; 
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        border-radius: 5px; 
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+        transition: all 0.3s ease 0s; 
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+}
+.omoss-button:hover {
+    background-color: #de5757; 
+    color: white; 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-7px); 
+}
+.omoss-button:active {
+    opacity: 0.5;
+}
+
